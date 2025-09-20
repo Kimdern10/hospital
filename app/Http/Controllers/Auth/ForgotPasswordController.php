@@ -34,7 +34,7 @@ class ForgotPasswordController extends Controller
             });
         } catch (\Exception $e) {
             Log::error("Failed to send password reset email: " . $e->getMessage());
-            return redirect()->back()->with('error', 'Failed to send reset Otp email. Please check your network connection try again later.');
+            return redirect()->back()->with('error', 'Failed to send reset Otp email. Please check your network connection try again later.' . $e->getMessage());
         }
     }
 

@@ -30,7 +30,7 @@
   <div class="container" role="article" aria-roledescription="email">
     <div class="header">
       <!-- Replace src with your hospital logo or keep text -->
-      <img src="{{ $logo ?? asset('admin_asset/images/LOGO-removebg-preview.png') }}" alt="Hospital Logo" class="logo">
+    <img src="https://i.ibb.co/Q3bj8CSn/LOGO-removebg-preview.png" alt="Hospital Logo" border="0">
       <div>
         <div class="brand">Omnisana Hospital</div>
         <div style="font-size:12px; opacity:0.9;">Account security team</div>

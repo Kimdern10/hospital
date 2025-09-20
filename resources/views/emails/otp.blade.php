@@ -64,7 +64,7 @@
     <!-- Logo -->
     <div class="logo">
         <a href="{{ url('/') }}">
-            <img src="{{ asset('admin_asset/images/LOGO-removebg-preview.png') }}" alt="Hospital Logo" title="Omnisana Hospital">
+            <img src="https://i.ibb.co/Q3bj8CSn/LOGO-removebg-preview.png" alt="Hospital Logo" border="0">
         </a>
     </div>
 

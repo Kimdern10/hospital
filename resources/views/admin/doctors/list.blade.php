@@ -1,5 +1,4 @@
 @extends('layouts.admin')
-
 @section('content')
 <div class="content-inner container-fluid pb-0" id="page_layout">
     <div class="row">
@@ -7,7 +6,7 @@
 
             <!-- Link to trashed doctors + Add button -->
               <div class="mb-3">
-                <a href="{{ route('trashed') }}" class="btn btn-primary">View Deleted Doctors</a>
+                <a href="{{ route('trashed') }}" class="btn btn-primary">View Trashed</a>
                 <a href="{{ route('create') }}" class="btn btn-primary">+ Add Doctor</a>
             </div>
 

@@ -30,7 +30,7 @@ class ForgotPasswordController extends Controller
         try {
             Mail::send($view, $data, function ($message) use ($email) {
                 $message->to($email, 'Omnisana Hospital')->subject('Omnisana Hospital Reset Password');
-                $message->from('omnisanahospital@gmail.com', 'Omnisana Hospital support');
+                // $message->from('omnisanahospital@gmail.com', 'Omnisana Hospital support');
             });
         } catch (\Exception $e) {
             Log::error("Failed to send password reset email: " . $e->getMessage());

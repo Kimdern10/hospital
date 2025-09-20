@@ -64,7 +64,12 @@
     <!-- Logo -->
     <div class="logo">
         <a href="{{ url('/') }}">
-            <img src="https://i.ibb.co/Q3bj8CSn/LOGO-removebg-preview.png" alt="Hospital Logo" border="0">
+         <img src="https://i.ibb.co/Q3bj8CSn/LOGO-removebg-preview.png" 
+     alt="Hospital Logo" 
+     width="160" 
+     height="80" 
+     style="display:block; border:0;">
+
         </a>
     </div>
 

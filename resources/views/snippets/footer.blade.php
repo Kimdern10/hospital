@@ -48,9 +48,9 @@
                                 <ul class="list-unstyled">
                                     <li><a href="{{ route('about') }}">About us</a></li>
                                     <li><a href="{{ route('contact') }}">Contact us</a></li>
-                                    <li><a href="#">Appointments</a></li>
-                                    <li><a href="#">Latest News</a></li>
-                                    <li><a href="#">Certificates</a></li>
+                                    <li><a href="javascript:void(0);">Appointments</a></li>
+                                    <li><a href="javascript:void(0);">Latest News</a></li>
+                                    <li><a href="javascript:void(0);">Certificates</a></li>
                                 </ul>
                             </div>
                         </div>

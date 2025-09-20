@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-<!-- <section id="hero">
-    <div class="inner-banner" style="background-image:url(assets/images/banner-doctors.jpg)">
+<section id="hero">
+    <div class="inner-banner" style="background-image: url('{{ asset('assets/images/banner-doctors.jpg') }}')">
         <div class="container">
             <h3 class="title">Our <br><big><strong>Specialists</strong></big></h3>
         </div>
     </div>
-</section> -->
+</section>
 
 <!-- Content Area -->
 <section class="main-section">
@@ -36,7 +36,7 @@
                             </div>
                             <div class="doctor-info">
                                 <h4>{{ $doctor->name }}
-                                    <span>{{ $doctor->department->name ?? 'Specialist' }}</span>
+                                    <!-- <span>{{ $doctor->department->name ?? 'Specialist' }}</span> -->
                                 </h4>
 
                                 <!-- Specialities -->
@@ -57,7 +57,7 @@
                                 </ul>
 
                                 <!-- View Profile -->
-                                <a class="btn btn-simple btn-primary btn-round" href="{{ route('doctors.detail', $doctor->id) }}">View Profile</a>
+                                <a class="btn btn-simple btn-primary btn-round" href="{{ route('doctors.detail', $doctor->slug) }}">View Profile</a>
                             </div>
                         </div>
                     </div>

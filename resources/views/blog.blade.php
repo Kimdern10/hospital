@@ -95,12 +95,12 @@
                         <h2><strong>Tag</strong> Clouds</h2>
                     </div>
                     <div class="body widget tag-clouds">
-                      <ul class="list-unstyled m-b-0">
-    <li><span class="tag badge badge-default">Cardio Monitoring</span></li>
-    <li><span class="tag badge badge-success">Traumatology</span></li>
-    <li><span class="tag badge badge-info">Creative UX</span></li>
-    <li><span class="tag badge badge-success">Pulmonary</span></li>
-    <li><span class="tag badge badge-warning">Cardiology</span></li>
+<ul class="list-unstyled m-b-0">
+    <li><a href="javascript:void(0);" class="tag badge badge-default">Cardio Monitoring</a></li>
+    <li><a href="javascript:void(0);" class="tag badge badge-success">Traumatology</a></li>
+    <li><a href="javascript:void(0);" class="tag badge badge-info">Creative UX</a></li>
+    <li><a href="javascript:void(0);" class="tag badge badge-success">Pulmonary</a></li>
+    <li><a href="javascript:void(0);" class="tag badge badge-warning">Cardiology</a></li>
 </ul>
 
                     </div>

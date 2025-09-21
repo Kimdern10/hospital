@@ -88,7 +88,7 @@
         <div class="about-us-section">
             <div class="container">
                 <div class="row">
-                    <div class="section-title col-12 mb-12" data-aos="fade-up">
+                    <div class="section-title col-12 mb-12 mt-5" data-aos="fade-up">
                         <h2><span>About </span>Us</h2>
                         <p>Omnisana Hospital is dedicated to delivering excellence in healthcare through innovation, compassion, and expertise.</p>
                     </div>
@@ -96,7 +96,7 @@
                 <div class="row justify-content-between">
                     <div class="col-lg-4 col-sm-4">
        <div class="box-img box-shadow" data-aos="fade-up" 
-     style="width:100%; max-width:1000px; height:440px; overflow:hidden; border-radius:8px;">
+     style="width:100%; max-width:1000px; height:500px; overflow:hidden; border-radius:8px;">
     <img src="{{ asset('assets/images/second.jpg') }}" alt="Second Image" 
          style="width:100%; height:100%; object-fit:cover; object-position:center;">
     <span class="section-line" data-aos="fade-up"></span>
@@ -104,7 +104,7 @@
 
 
                     </div>
-                    <div class="col-lg-7 col-sm-8">
+                    <div class="col-lg-7 col-sm-8 mt-5">
                         <div class="common-cnt" data-aos="fade-up">
                             <div class="section-top">
                                 <p><strong>Omnisana Hospital</strong> has built a strong reputation as a trusted medical center, providing high-quality healthcare with a patient-first approach.</p>
@@ -119,6 +119,29 @@
                 </div>
             </div>
         </div>
+        <style>
+/* Tablet */
+@media (max-width: 992px) {
+    .box-img {
+        height: 580px !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .box-img {
+        height: 580px !important;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+    .box-img {
+        height: 480px !important;
+    }
+}
+</style>
+
         <!-- Home About Us Section -->
 
         <!-- Home About Us Section -->
@@ -127,7 +150,7 @@
         <!-- Section Title -->
         <div class="row mb-5">
             <div class="section-title col-12 text-center" data-aos="fade-up">
-                <h2 style="font-size: 2.5rem; font-weight: 700; color: #2c3e50;">
+                <h2 style=" section-title font-size: 2.5rem; font-weight: 700; color: #2c3e50;">
                     <span style="color: #007bff;">Our </span>Best Services
                 </h2>
                 <p style="max-width: 650px; margin: 15px auto; font-size: 1.1rem; color: #555;">
@@ -135,6 +158,28 @@
                 </p>
             </div>
         </div>
+<style>
+/* Tablet */
+@media (max-width: 992px) {
+    h2.section-title {
+        font-size: 2rem !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    h2.section-title {
+        font-size: 1.6rem !important;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+    h2.section-title {
+        font-size: 1.3rem !important;
+    }
+}
+</style>
 
         <!-- Services Grid -->
        <div class="row">

@@ -110,4 +110,15 @@
         </div>
     </div>
 </section>
+<style>
+/* Disable black & white hover effect */
+.img-post img {
+    filter: none !important;
+    transition: none !important;
+}
+.img-post img:hover {
+    filter: none !important;
+}
+</style>
+
 @endsection

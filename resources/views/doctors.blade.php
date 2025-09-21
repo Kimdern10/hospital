@@ -71,6 +71,7 @@
         border-radius: 10px;
     }
 
+    
     .doctor-pic img.doctor-img {
         width: 100%;
         height: 100%;

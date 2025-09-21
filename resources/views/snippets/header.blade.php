@@ -80,11 +80,26 @@
                         </div>
                     </div>
                     <div class="col-lg-7 col-sm-7">
+                        <!-- Desktop Only -->
                         <div class="text-right d-none d-md-block">
                            @if($contactInfo)
                                 <p class="col-white m-b-0 p-t-5">
                                     <i class="zmdi zmdi-time"></i> {{ $contactInfo->working_days }} | {{ $contactInfo->weekend_days }}
                                 </p>
+                                <p class="col-white m-b-0">
+                                    <i class="zmdi zmdi-pin"></i> {{ $contactInfo->address }}
+                                </p>
+                                @if (!empty($contactInfo->address_two))
+                                    <p class="col-white m-b-0">
+                                        <i class="zmdi zmdi-pin"></i> {{ $contactInfo->address_two }}
+                                    </p>
+                                @endif
+                           @endif
+                        </div>
+
+                        <!-- Mobile Only -->
+                        <div class="text-left d-block d-md-none mt-2">
+                           @if($contactInfo)
                                 <p class="col-white m-b-0">
                                     <i class="zmdi zmdi-pin"></i> {{ $contactInfo->address }}
                                 </p>

@@ -96,7 +96,7 @@
                 <div class="row justify-content-between">
                     <div class="col-lg-4 col-sm-4">
        <div class="box-img box-shadow" data-aos="fade-up" 
-     style="width:100%; max-width:1000px; height:500px; overflow:hidden; border-radius:8px;">
+     style="width:100%; max-width:1000px; height:510px; overflow:hidden; border-radius:8px;">
     <img src="{{ asset('assets/images/second.jpg') }}" alt="Second Image" 
          style="width:100%; height:100%; object-fit:cover; object-position:center;">
     <span class="section-line" data-aos="fade-up"></span>
@@ -130,14 +130,14 @@
 /* Mobile */
 @media (max-width: 768px) {
     .box-img {
-        height: 580px !important;
+        height: 610px !important;
     }
 }
 
 /* Small mobile */
 @media (max-width: 480px) {
     .box-img {
-        height: 480px !important;
+        height: 490px !important;
     }
 }
 </style>

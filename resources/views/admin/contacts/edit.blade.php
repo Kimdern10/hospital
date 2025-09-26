@@ -30,7 +30,7 @@
 
                         <div class="mb-3">
                             <label class="form-label">Address</label>
-                            <input type="text" name="address" class="form-control" value="{{ old('address', $contact->address) }}" required>
+                            <input type="text" name="address" class="form-control" value="{{ old('address', $contact->address) }}" >
                         </div>
 
                         <div class="mb-3">

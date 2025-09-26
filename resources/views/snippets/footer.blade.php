@@ -61,11 +61,19 @@
 <div class="fcard contact links">
     <h5 class="title">Contact Details</h5>
     <ul class="list-unstyled">
-        <li><i class="zmdi zmdi-pin"></i> {{ $contactInfo->address }}</li>
-        <li><i class="zmdi zmdi-email"></i> {{ $contactInfo->email }}</li>
-       @if (!empty($contactInfo->phone))
-    <li><i class="zmdi zmdi-phone"></i> {{ $contactInfo->phone }}</li>
-@endif
+        @if(!empty($contactInfo->address))
+            <li><i class="zmdi zmdi-pin"></i> {{ $contactInfo->address }}</li>
+        @endif
+
+        @if(!empty($contactInfo->email))
+            <li><i class="zmdi zmdi-email"></i> {{ $contactInfo->email }}</li>
+        @endif
+
+        @if(!empty($contactInfo->phone))
+            <li><i class="zmdi zmdi-phone"></i> {{ $contactInfo->phone }}</li>
+        @endif
+    </ul>
+
 
 @if (!empty($contactInfo->phone_two))
     <li><i class="zmdi zmdi-phone"></i> {{ $contactInfo->phone_two }}</li>

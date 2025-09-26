@@ -22,7 +22,7 @@ class ContactController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'address' => 'required|string|max:255',
+            'address' => 'nullable|string|max:255',
             'address_two' => 'nullable|string|max:255',
             'email' => 'required|email|max:255',
             'phone' => 'nullable|string|max:20',
@@ -47,7 +47,7 @@ class ContactController extends Controller
         $contact = Contact::findOrFail($id);
 
         $request->validate([
-            'address' => 'required|string|max:255',
+            'address' => 'nullable|string|max:255',
             'address_two' => 'nullable|string|max:255',
             'email' => 'required|email|max:255',
             'phone' => 'nullable|string|max:20',
